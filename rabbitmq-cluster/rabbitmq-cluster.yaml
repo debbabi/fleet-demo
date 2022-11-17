@@ -4,6 +4,8 @@ metadata:
   name: rabbitmqcluster-sample
 spec:
   replicas: 1
+  service:
+    type: NodePort
   resources:
     requests:
       cpu: 500m
